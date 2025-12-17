@@ -1,0 +1,29 @@
+{
+  "timestamp_utc": "2025-12-09T12:20:16.953747Z",
+  "timestamp_unix": 1765282816.9537468,
+  "center_frequency_hz": 1625000000.0,
+  "center_frequency_mhz": 1625.0,
+  "sample_rate_hz": 2400000.0,
+  "sample_rate_mhz": 2.4,
+  "num_samples": 4800000,
+  "duration_seconds": 2.0,
+  "avg_power_db": -41.855330740036436,
+  "num_bursts_detected": 1,
+  "max_burst_snr_db": 37.673923094727975,
+  "bursts": [
+    {
+      "time_start_s": 0.792,
+      "time_end_s": 0.8123733333333333,
+      "duration_ms": 20.373333333333242,
+      "freq_center_hz": 1115625.0,
+      "freq_span_hz": 37500.0,
+      "snr_db": 37.673923094727975,
+      "peak_power_db": -31.008751104225432
+    }
+  ],
+  "files": {
+    "npy": "burst_1625_00MHz_20251209_122016.npy",
+    "iq": "burst_1625_00MHz_20251209_122016.iq",
+    "json": "burst_1625_00MHz_20251209_122016.json"
+  }
+}
