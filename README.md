@@ -3,8 +3,8 @@
 
 DhruvXPNT is a **research-grade hardware–software system** focused on **GNSS-independent Position, Navigation, and Timing (PNT)** using **Signals of Opportunity (SoO)** from **Low Earth Orbit (LEO) satellites**.
 
-This repository documents the **existence, capability, and validation** of the system through controlled demonstrations and hardware deployment.  
-**Implementation details, algorithms, and core methodologies are intentionally restricted.**
+This repository documents the **existence, capability, and validation** of the system through controlled demonstrations and a working hardware prototype.  
+**Core algorithms, signal processing methods, and navigation logic are intentionally not disclosed.**
 
 🏆 **Winner – Smart India Hackathon (SIH) 2025, Hardware Edition**
 
@@ -15,10 +15,11 @@ This repository documents the **existence, capability, and validation** of the s
 DhruvXPNT demonstrates:
 - Passive RF-based navigation capability
 - Operation without reliance on GNSS payload decoding
-- On-device processing and monitoring
-- Portable, self-contained hardware deployment
+- Embedded, on-device processing
+- Portable and enclosed hardware deployment
+- Real-time system monitoring and diagnostics
 
-The system has been **successfully built, tested, and demonstrated** on real RF signals under live conditions.
+The system has been **built, tested, and demonstrated** on real RF signals under live conditions.
 
 ---
 
@@ -50,7 +51,7 @@ The system passively observes LEO-band RF activity and performs real-time signal
 
 ![Burst Capture on Raspberry Pi](Images/Burst%20capturing%20in%20pi.jpg)
 
-The platform performs real-time signal evaluation directly on embedded hardware.
+Live RF bursts are detected and monitored directly on embedded hardware.
 
 ---
 
@@ -60,10 +61,10 @@ The platform performs real-time signal evaluation directly on embedded hardware.
 
 ![RTL SDR Technical Terminal](Images/RTL%20SDR%20tech%20terminal.jpg)
 
-The interface provides live visibility into:
+The terminal provides real-time visibility into:
 - RF conditions
 - Signal quality metrics
-- Device health status
+- Device and antenna status
 - Processing state
 
 ---
@@ -75,7 +76,7 @@ The interface provides live visibility into:
 ![Waterfall System Health](Images/Waterfall%20system%20health.jpg)
 ![PNT System Health](Images/PNT%20system%20health.jpg)
 
-Continuous monitoring ensures operational stability during deployment.
+Continuous monitoring ensures operational stability during demonstrations and testing.
 
 ---
 
@@ -84,15 +85,15 @@ Continuous monitoring ensures operational stability during deployment.
 ![User Interaction](Images/User%20interaction%20with%20system%20health.jpg)
 ![Raspberry Pi Display](Images/Pi%20display%20.png)
 
-The system includes an integrated display for live interaction and system status visualization.
+The system includes an integrated display for live user interaction and status visualization.
 
 ---
 
 ## Repository Contents
 
-This repository contains:
-- System configuration files
-- Demonstration artifacts
+This repository contains selected artifacts related to:
+- System configuration
+- Demonstration outputs
 - Captured metadata samples
 - Reports and documentation
 - Visual evidence of system operation
